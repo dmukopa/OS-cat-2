@@ -1,0 +1,23 @@
+#!/usr/bin/perl -w
+use strict;
+
+my %elements;
+my $element = "6.kevo";
+
+# Fill up our hash a bit
+foreach ("1.bla","2.blubb","3.foo","4.bah","5.bill","6.kevo","7.Natalie",
+	"8.debra","9.alpha") {
+ $elements{$_} = 1;
+ };
+
+ # Check if $element is in our hash :
+ print " Found:: '$element'\n" if (exists $elements{$element});
+ print " D' oh - '$element' not found\n" unless (exists $elements{$element});
+
+ # You can still get to all elements in %elements :
+ foreach (keys %elements) { 
+    # but they are in some weird order ...
+    print "$_\n";
+    };
+
+

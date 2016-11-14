@@ -1,0 +1,38 @@
+system1 # cat checkfd.sh
+#!/bin/sh
+
+# example how to check if file or directory exists
+
+FILE=/scripts/helloworld
+DIR=/scripts/helloworld
+
+if [ ! -f $FILE ] 
+then
+    echo "file " $FILE " does not exist.";
+else
+    echo "file " $FILE " exists.";
+fi
+
+echo "=============";
+
+if [ ! -f $DIR ] 
+then
+    echo "file " $DIR " does not exist.";
+else
+    echo "file " $DIR " exists.";
+
+fi
+
+echo "=============";
+
+if [ ! -d $DIR ] 
+then
+    echo "directory " $DIR " does not exist.";
+else 
+    echo "directory "$FILE " exists.";
+fi
+
+system1#
+
+
+

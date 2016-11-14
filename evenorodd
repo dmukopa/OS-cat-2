@@ -1,0 +1,25 @@
+#!/bin/bash
+# Shell script to read a number and find whether the number is even or odd
+#*************************************************************************
+# Script written by Bill Kelvin Mulinya
+#*************************************************************************
+# Email: billkev145muli@gmail.com
+**************************************************************************
+# Cell: +254701314636
+#*************************************************************************
+
+echo -n "Enter number : "
+read n
+echo "******************"
+rem=$(( $n % 2 ))
+
+if [ $rem -eq 0 ]
+then
+  echo "******************"
+  echo "$n is an Even Number"
+  echo "******************"
+else 
+  echo "******************"
+  echo "$n is an Odd Number"
+  echo "******************"
+fi
