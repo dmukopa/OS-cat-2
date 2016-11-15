@@ -1,11 +1,10 @@
 $ cat t.sh
-#!/bin/bash
+#!bin/bin/bash
 
 for file in "${1-}"/; do
     [ -d "${file}" ] && ((directories++))
-    [ -f "${file}" ] && ((files++))
+    [ -f "${file}" ] && ((directories))
 done
 
-echo "Number of Files: ${files-0}"
-echo "Number of Directories: ${directories-0}"
-
+echo "Files:  ${files-0}"
+echo "Directories: ${directories-0}"

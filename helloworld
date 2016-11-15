@@ -1,27 +1,4 @@
-#!/bin/bash
-function line(){
-echo "*******************************"
-}
-clear
-
-echo " Hellooo, World"
-echo -e "\033[31m Hellooo, World"
-echo -e "\033[32m Hellooo, World"
-echo -e -n "\033[0m "
-echo " This is my First Shell Script"
-echo -e "\033[32m This is my First Shell Script"
-echo " Using GIT"
-echo -e "\033[31m Using GIT"
-
-
-
-
-
-
-echo "*******************************"
-echo " 1. Bill Kelvin Mulinya           "
-echo " 2. Natalie Mbula                 "
-echo " 3. Kevin Wangome                 "
-echo "*******************************"
-
-exit
+echo "HELLOWORLD"
+echo "DEBRA"
+echo -e "\033[31m Helloo, World"
+echo -e "\033[32m Helloo, World"

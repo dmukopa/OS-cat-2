@@ -1,0 +1,27 @@
+#!/bin/bash
+
+echo -n "Enter source file:"
+read src
+echo -n "Enter target file:"
+read targ
+
+if [ ! -f $src ]
+then 
+    echo "file $src does not exist"
+    exit 1
+elif [ -f $targ ]
+then
+    echo "file $targ exist, cannot overwrite"
+    exit 2
+fi
+
+cp $src $targ
+
+status=#?
+
+if [ $status -eq 0 ]
+then
+    echo 'file copied sucessfully'
+else
+    echo 'problem copying file'
+fi

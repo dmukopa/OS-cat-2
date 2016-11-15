@@ -1,0 +1,11 @@
+echo "enter 1st number:"
+read a
+echo "enter 2nd number:"
+read b
+echo "enter operand:"
+read c
+calc=`expr $a "$c" $b`
+
+echo " answer "=" $calc"
+
+

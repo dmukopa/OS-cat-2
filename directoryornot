@@ -1,0 +1,28 @@
+system1 # cat checkfd.sh
+#!/bin/sh
+
+FILE=/scripts/helloworld
+DIR=/scripts/helloworld
+
+if [ ! -f $FILE ]
+then
+    echo "file "$FILE "does not exist.";
+else
+    echo "file " $FILE "exists.";
+fi
+
+if [ ! -f $DIR]
+then
+    echo "file "$DIR "does not exist";
+else
+    echo "file "$DIR "exists";
+fi
+
+if [ ! -d $DIR]
+then
+    echo "directory "$DIR "does not exist";
+else
+    echo "directory "$FILE "exists";
+fi
+
+system1#

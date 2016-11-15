@@ -1,0 +1,4 @@
+for entry in "$entry_dir"/*
+do
+  echo "$entry"
+done

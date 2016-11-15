@@ -1,13 +1,3 @@
-$cat employee.txt 
-100  Thomas    Manager      Sales       $5,000
-200  Jason     Developer    Technology  $5,500
-300  Sanjay    Sysadmin     Technology  $7,000
-400  Nisha     Manager      Marketing   $9,500
-500  Randy     DBA          Technology  $6,500
-600  Bill      Superviser   Technology  $15,000
-700  Debra     Worker       Technology  $1,000
-800  Alpha     DBA          Sales       $5,300
-900  Kevin     Developer    Sales       $7,000
-1000 Natalie   Cashier      Sales       $20,000
-1010 Brom      Cleaner      Marketing   $2,500
-1011 Magdalene Lecturer     Technology  $100,000
+100   monamie   Manager     Sales  $600
+200   cherie    Sweetheart  Home   $400
+300   brom      nigga       joker  $100

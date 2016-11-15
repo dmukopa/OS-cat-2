@@ -1,0 +1,1 @@
+awk '/sherie|monamie|brom/' employee.txt

@@ -1,23 +1,16 @@
-#!/bin/bash
-# SCRIPT: prime1.sh
-# USAGE: ./prime1.sh
-# PURPOSE: Finds whether a given Number is Prime or Not
-*******************************************************
-echo -n "Enter a Number: "
+echo -n "enter a number"
 read num
 i=2
 while [ $i -lt $num ]
-do 
+do
   if [ `expr $num % $i` -eq 0 ]
   then
-      
-      echo "$num is NOT a Prime Number"
-      echo "Since it is Divisible by: $i"
-      
+
+      echo "$num is not a prime number"
+      echo "since it is divisible by: $i"
+
       exit
- fi
- i=`expr $i + 1`
- done
- echo "$num is a PRIME NUMBER "
-
-
+  fi
+  i=`expr $i + 1`
+  done
+  echo "$num is a prime number"
