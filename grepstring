@@ -1,5 +1,0 @@
-echo "This is Grep Script to check for a string in a File"
-
-echo "***************************************************"
-grep "Technology" awk.txt
-echo "***************************************************"
