@@ -1,7 +1,0 @@
-echo "To Display Current User Logged In The System"
-echo "============================================"
-id -u -n
-echo "============================================"
-echo "User Currently logged in is: "
-id -u -n
-echo "============================================"
