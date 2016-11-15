@@ -1,4 +1,0 @@
-for entry in "$earch_dir"/*
-do
-  echo "$entry"
-done
